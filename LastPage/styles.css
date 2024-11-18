@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5em 1.4em;
+    box-shadow: 0px 4px 36px 0px #00000026;
+}
+nav .tools{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .tools span{
+    margin-inline: .4em;
+}
+nav .profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-inline: 1em;
+}
+nav .profile img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+nav .logo{
+    height: 60px;
+    width: 60px;
+}
+.logo svg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 1em;
+}
+.sideBar{
+    box-shadow: 0px 4px 36px 0px #00000040;
+    border-radius: 5px;
+    height: 100vh;
+    width: 20%;
+    padding: 1em;
+}
+.sideBar p{
+    margin-block: 1em;
+}
+.formContainer{
+    width: 75%;
+}
+.ribbons{
+    padding: 1.4em .5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ribbonButtons{
+    display: flex;
+    justify-content: space-between;
+}
+.ribbons .button{
+    height: 40px;
+    width: 92px;
+    border: 1px solid #009688;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5em;
+    border-radius: 5px;
+    color: #009688;
+    margin-inline: .5em;
+    cursor: pointer;
+}
+#cancel{
+    color: red;
+    border: 1px solid red;
+}
+
+.container{
+    padding: 1em;
+    width: 100%;
+    /* margin: 3rem auto; */
+    box-shadow: 0px 4px 36px 0px #00000040;
+    border-radius: 15px;
+
+}
+.container input{
+   width: 100%;
+   margin-block: .5em;
+   padding: .3em;
+   background: transparent;
+   border: none;
+   border-bottom: 1.8px solid #999;
+}
+.container input:focus{
+   outline: none;
+}
+.container textarea{
+   width: 100%;
+   margin-block: .5em;
+   padding: .5em;
+   background: transparent;
+
+}
+label{
+    color: #999;
+}
+#file_upload{
+
+}
+.fileUpload{
+    position: relative;
+    padding: 1em;
+    background: #e1dbdb;
+    margin-block: 2em;
+    border-radius: 10px;
+}
+.arrow{
+    width: 8%;
+    margin: 0 auto;
+}
+.fileUpload .arrow span{
+    padding: .5em;
+    border: 1.5px dashed black;
+}
+.fileUpload h3{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.fileUpload p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
